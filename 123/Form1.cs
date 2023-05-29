@@ -297,146 +297,152 @@ namespace _123
             pens = new List<Pen>();
 
             roof = new MyObject();
-            roof.vertices.Add(0, 0, 0, 1); //0
-            roof.edges.Add(new int[] { 1,3,4});
-            roof.vertices.Add(0, 12, 0, 1); //1
-            roof.edges.Add(new int[] { 2,5 });
-            roof.vertices.Add(20, 12, 0, 1); //2
-            roof.edges.Add(new int[] { 3, 6 });
-            roof.vertices.Add(20, 0, 0, 1); //3
-            roof.edges.Add(new int[] { 7 });
-            roof.vertices.Add(0, 0, 2, 1); //4
-            roof.edges.Add(new int[] { 5, 7 });
-            roof.vertices.Add(0, 12, 2, 1); //5
-            roof.edges.Add(new int[] { 6 });
-            roof.vertices.Add(20, 12, 2, 1); //6
-            roof.edges.Add(new int[] { 7 });
-            roof.vertices.Add(20, 0, 2, 1); //7
-            roof.edges.Add(null);
-            roof.vertices *= moving_on(-10, -6, 10);
+            roof.vertices.Add(8, -4, 3, 1);
+            roof.edges.Add(new int[] { 24, 1, 3 });
+            roof.vertices.Add(8, -4, 0, 1);
+            roof.edges.Add(new int[] { 0, 2, 23 });
+            roof.vertices.Add(8, 3, 0, 1);
+            roof.edges.Add(new int[] { 1, 3, 22 });
+            roof.vertices.Add(8, 3, 3, 1);
+            roof.edges.Add(new int[] { 0, 2, 20 });
+            roof.vertices.Add(3, -9, 1, 1);
+            roof.edges.Add(new int[] { 8, 11, 14, 15, 30 });
+            roof.vertices.Add(3, -4, 1, 1);
+            roof.edges.Add(new int[] { 8, 26, 11, 6 });
+            roof.vertices.Add(3, -4, 2, 1);
+            roof.edges.Add(new int[] { 10, 5, 29 });
+            roof.vertices.Add(3, -4, 0, 1);
+            roof.edges.Add(new int[] { 37, 39, 8, 17, 28 });
+            roof.vertices.Add(3, -4, 1, 1);
+            roof.edges.Add(new int[] { 4, 5, 7, 11, 31 });
+            roof.vertices.Add(-6, -12, 0, 1);
+            roof.edges.Add(new int[] { 41, 34, 13 });
+            roof.vertices.Add(3, -7, 2, 1);
+            roof.edges.Add(new int[] { 11, 21, 6 });
+            roof.vertices.Add(3, -7, 1, 1);
+            roof.edges.Add(new int[] { 4, 5, 8, 10, 25 });
+            roof.vertices.Add(-6, -9, 3, 1);
+            roof.edges.Add(new int[] { 42, 13, 15 });
+            roof.vertices.Add(-6, -9, 0, 1);
+            roof.edges.Add(new int[] { 9, 12, 14 });
+            roof.vertices.Add(3, -9, 0, 1);
+            roof.edges.Add(new int[] { 4, 37, 38, 39, 13, 27 });
+            roof.vertices.Add(3, -9, 3, 1);
+            roof.edges.Add(new int[] { 16, 4, 12 });
+            roof.vertices.Add(3, 3, 3, 1);
+            roof.edges.Add(new int[] { 17, 19, 15 });
+            roof.vertices.Add(3, 3, 0, 1);
+            roof.edges.Add(new int[] { 16, 18, 39, 7 });
+            roof.vertices.Add(-8, 3, 0, 1);
+            roof.edges.Add(new int[] { 17, 19, 36 });
+            roof.vertices.Add(-8, 3, 3, 1);
+            roof.edges.Add(new int[] { 16, 18, 40 });
+            roof.vertices.Add(3, 3, 3, 1);
+            roof.edges.Add(new int[] { 24, 3, 22 });
+            roof.vertices.Add(8, -7, 2, 1);
+            roof.edges.Add(new int[] { 25, 10, 29 });
+            roof.vertices.Add(3, 3, 0, 1);
+            roof.edges.Add(new int[] { 2, 20, 23 });
+            roof.vertices.Add(3, -4, 0, 1);
+            roof.edges.Add(new int[] { 24, 1, 22 });
+            roof.vertices.Add(3, -4, 3, 1);
+            roof.edges.Add(new int[] { 0, 20, 23 });
+            roof.vertices.Add(8, -7, 1, 1);
+            roof.edges.Add(new int[] { 26, 11, 21 });
+            roof.vertices.Add(8, -4, 1, 1);
+            roof.edges.Add(new int[] { 25, 29, 5 });
+            roof.vertices.Add(8, -9, 0, 1);
+            roof.edges.Add(new int[] { 38, 28, 14, 30 });
+            roof.vertices.Add(8, -4, 0, 1);
+            roof.edges.Add(new int[] { 27, 31, 37, 7 });
+            roof.vertices.Add(8, -4, 2, 1);
+            roof.edges.Add(new int[] { 26, 21, 6 });
+            roof.vertices.Add(8, -9, 1, 1);
+            roof.edges.Add(new int[] { 27, 4, 31 });
+            roof.vertices.Add(8, -4, 1, 1);
+            roof.edges.Add(new int[] { 8, 28, 30 });
+            roof.vertices.Add(-9, 0, 5, 1);
+            roof.edges.Add(new int[] { 33, 35, 43 });
+            roof.vertices.Add(-9, 0, 0, 1);
+            roof.edges.Add(new int[] { 32, 34, 36 });
+            roof.vertices.Add(-9, -12, 0, 1);
+            roof.edges.Add(new int[] { 33, 35, 9 });
+            roof.vertices.Add(-9, -12, 5, 1);
+            roof.edges.Add(new int[] { 32, 41, 34 });
+            roof.vertices.Add(-8, 0, 0, 1);
+            roof.edges.Add(new int[] { 40, 33, 18 });
+            roof.vertices.Add(3, -4, 0, 1);
+            roof.edges.Add(new int[] { 38, 39, 7, 14, 28 });
+            roof.vertices.Add(3, -9, 0, 1);
+            roof.edges.Add(new int[] { 27, 37, 14 });
+            roof.vertices.Add(3, -4, 0, 1);
+            roof.edges.Add(new int[] { 17, 37, 14, 7 });
+            roof.vertices.Add(-8, 0, 3, 1);
+            roof.edges.Add(new int[] { 42, 19, 36 });
+            roof.vertices.Add(-6, -12, 5, 1);
+            roof.edges.Add(new int[] { 9, 43, 35 });
+            roof.vertices.Add(-6, 0, 3, 1);
+            roof.edges.Add(new int[] { 40, 43, 12 });
+            roof.vertices.Add(-6, 0, 5, 1);
+            roof.edges.Add(new int[] { 32, 41, 42 });
+            roof.vertices *= moving_on(0, 0, 0);
             my_object0.Add(roof);
             pens.Add(pen0);
 
-            wall1 = new MyObject();
-            wall1.vertices.Add(0, 0, 0, 1); //0
-            wall1.edges.Add(new int[] { 1, 11, 12 });
-            wall1.vertices.Add(0, 2, 0, 1); //1
-            wall1.edges.Add(new int[] { 2, 13 });
-            wall1.vertices.Add((float)0.5, 2, 0, 1); //2
-            wall1.edges.Add(new int[] { 3, 14 });
-            wall1.vertices.Add((float)0.5, 8, 0, 1); //3
-            wall1.edges.Add(new int[] { 4, 15 });
-            wall1.vertices.Add(0, 8, 0, 1); //4
-            wall1.edges.Add(new int[] { 5, 16 });
-            wall1.vertices.Add(0, 10, 0, 1); //5
-            wall1.edges.Add(new int[] { 6, 17 });
-            wall1.vertices.Add(2, 10, 0, 1); //6
-            wall1.edges.Add(new int[] { 7, 18 });
-            wall1.vertices.Add(2, 8, 0, 1); //7
-            wall1.edges.Add(new int[] { 8, 19 });
-            wall1.vertices.Add((float)1.5, 8, 0, 1); //8
-            wall1.edges.Add(new int[] { 9, 20 });
-            wall1.vertices.Add((float)1.5, 2, 0, 1); //9
-            wall1.edges.Add(new int[] { 10, 21 });
-            wall1.vertices.Add(2, 2, 0, 1); //10
-            wall1.edges.Add(new int[] { 11, 22 });
-            wall1.vertices.Add(2, 0, 0, 1); //11
-            wall1.edges.Add(new int[] { 23 });
-            wall1.vertices.Add(0, 0, 16, 1); //12
-            wall1.edges.Add(new int[] { 13, 23 });
-            wall1.vertices.Add(0, 2, 16, 1); //13
-            wall1.edges.Add(new int[] { 14 });
-            wall1.vertices.Add((float)0.5, 2, 16, 1); //14
-            wall1.edges.Add(new int[] { 15 });
-            wall1.vertices.Add((float)0.5, 8, 16, 1); //15
-            wall1.edges.Add(new int[] { 16 });
-            wall1.vertices.Add(0, 8, 16, 1); //16
-            wall1.edges.Add(new int[] { 17 });
-            wall1.vertices.Add(0, 10, 16, 1); //17
-            wall1.edges.Add(new int[] { 18 });
-            wall1.vertices.Add(2, 10, 16, 1); //18
-            wall1.edges.Add(new int[] { 19 });
-            wall1.vertices.Add(2, 8, 16, 1); //19
-            wall1.edges.Add(new int[] { 20 });
-            wall1.vertices.Add((float)1.5, 8, 16, 1); //20
-            wall1.edges.Add(new int[] { 21 });
-            wall1.vertices.Add((float)1.5, 2, 16, 1); //21
-            wall1.edges.Add(new int[] { 22 });
-            wall1.vertices.Add(2, 2, 16, 1); //22
-            wall1.edges.Add(new int[] { 23 });
-            wall1.vertices.Add(2, 0, 16, 1); //23
-            wall1.edges.Add(null);
-            wall2 = new MyObject(wall1);
-            wall1.vertices *= moving_on(-9, -5, -6);
-            wall2.vertices *= moving_on(7, -5, -6);
-            my_object0.Add(wall1);
-            my_object0.Add(wall2);
-            pens.Add(pen0);
-            pens.Add(pen0);
-
             floor = new MyObject();
-            floor.vertices.Add(0, 0, 0, 1); //0
-            floor.edges.Add(new int[] { 1, 7, 12 });
-            floor.vertices.Add(4, 0, 0, 1); //1
-            floor.edges.Add(new int[] { 2, 8 });
-            floor.vertices.Add(4, -2, 0, 1); //2
-            floor.edges.Add(new int[] { 3, 11 });
-            floor.vertices.Add(16, -2, 0, 1); //3
-            floor.edges.Add(new int[] { 4, 10 });
-            floor.vertices.Add(16, 0, 0, 1); //4
-            floor.edges.Add(new int[] { 5, 9 });
-            floor.vertices.Add(20, 0, 0, 1); //5
-            floor.edges.Add(new int[] { 6, 13 });
-            floor.vertices.Add(20, -12, 0, 1); //6
-            floor.edges.Add(new int[] { 7, 14 });
-            floor.vertices.Add(0, -12, 0, 1); //7
-            floor.edges.Add(new int[] { 15 });
-            floor.vertices.Add(4, 0, -2, 1); //8
-            floor.edges.Add(new int[] { 9, 11 });
-            floor.vertices.Add(16, 0, -2, 1); //9
-            floor.edges.Add(new int[] { 10 });
-            floor.vertices.Add(16, -2, -2, 1); //10
-            floor.edges.Add(new int[] { 11 });
-            floor.vertices.Add(4, -2, -2, 1); //11
-            floor.edges.Add(null);
-            floor.vertices.Add(0, 0, -4, 1); //12
-            floor.edges.Add(new int[] { 13, 15 });
-            floor.vertices.Add(20, 0, -4, 1); //13
-            floor.edges.Add(new int[] { 14 });
-            floor.vertices.Add(20, -12, -4, 1); //14
-            floor.edges.Add(new int[] { 15 });
-            floor.vertices.Add(0, -12, -4, 1); //15
-            floor.edges.Add(null);
-            floor.vertices *= moving_on(-10, 6, -6);
+            floor.vertices.Add(8, -2, 15, 1);
+            floor.edges.Add(new int[] { 1, 3, 6, 9, 18 });
+            floor.vertices.Add(8, -9, 15, 1);
+            floor.edges.Add(new int[] { 0, 2, 5 });
+            floor.vertices.Add(8, -9, 14, 1);
+            floor.edges.Add(new int[] { 8, 1, 3 });
+            floor.vertices.Add(8, -2, 14, 1);
+            floor.edges.Add(new int[] { 0, 16, 2, 7 });
+            floor.vertices.Add(-8, 3, 15, 1);
+            floor.edges.Add(new int[] { 10, 18, 21 });
+            floor.vertices.Add(-3, -9, 15, 1);
+            floor.edges.Add(new int[] { 8, 1, 6 });
+            floor.vertices.Add(-3, -2, 15, 1);
+            floor.edges.Add(new int[] { 0, 5, 7, 9, 21 });
+            floor.vertices.Add(-3, -2, 14, 1);
+            floor.edges.Add(new int[] { 8, 3, 6 });
+            floor.vertices.Add(-3, -9, 14, 1);
+            floor.edges.Add(new int[] { 2, 5, 7 });
+            floor.vertices.Add(8, -2, 15, 1);
+            floor.edges.Add(new int[] { 0, 18, 21, 6 });
+            floor.vertices.Add(-8, 3, 3, 1);
+            floor.edges.Add(new int[] { 17, 4, 14 });
+            floor.vertices.Add(-6, -2, 13, 1);
+            floor.edges.Add(new int[] { 12, 20, 15 });
+            floor.vertices.Add(-7, -2, 13, 1);
+            floor.edges.Add(new int[] { 11, 13, 23 });
+            floor.vertices.Add(-7, -15, 13, 1);
+            floor.edges.Add(new int[] { 12, 22, 15 });
+            floor.vertices.Add(-8, -2, 3, 1);
+            floor.edges.Add(new int[] { 16, 10, 21 });
+            floor.vertices.Add(-6, -15, 13, 1);
+            floor.edges.Add(new int[] { 19, 11, 13 });
+            floor.vertices.Add(8, -2, 3, 1);
+            floor.edges.Add(new int[] { 17, 3, 14 });
+            floor.vertices.Add(8, 3, 3, 1);
+            floor.edges.Add(new int[] { 16, 18, 10 });
+            floor.vertices.Add(8, 3, 15, 1);
+            floor.edges.Add(new int[] { 0, 17, 4, 9 });
+            floor.vertices.Add(-6, -15, 5, 1);
+            floor.edges.Add(new int[] { 20, 22, 15 });
+            floor.vertices.Add(-6, -2, 5, 1);
+            floor.edges.Add(new int[] { 11, 19, 23 });
+            floor.vertices.Add(-8, -2, 15, 1);
+            floor.edges.Add(new int[] { 9, 4, 14, 6 });
+            floor.vertices.Add(-7, -15, 5, 1);
+            floor.edges.Add(new int[] { 19, 13, 23 });
+            floor.vertices.Add(-7, -2, 5, 1);
+            floor.edges.Add(new int[] { 12, 20, 22 });
+
+            floor.vertices *= moving_on(0, 0, 0);
             my_object0.Add(floor);
             pens.Add(pen0);
 
-            col1 = new MyObject();
-            col1.vertices.Add(1, 0, 0, 1); //0
-            col1.edges.Add(new int[] { 1, 11, 12 });
-            for (int i = 1; i <= 10; i++)
-            {
-                col1.vertices.Add((float)Math.Cos(i*0.5236), (float)Math.Sin(i * 0.5236), 0, 1); //1..10
-                col1.edges.Add(new int[] { i+1, i+12 });
-            }
-            col1.vertices.Add((float)Math.Cos(11 * 0.5236), (float)Math.Sin(11 * 0.5236), 0, 1); //11
-            col1.edges.Add(new int[] { 23 });
-            col1.vertices.Add((float)Math.Cos(11 * 0.5236), (float)Math.Sin(11 * 0.5236), 14, 1); //12
-            col1.edges.Add(new int[] { 13, 23 });
-            for (int i = 1; i <= 10; i++)
-            {
-                col1.vertices.Add((float)Math.Cos(i * 0.5236), (float)Math.Sin(i * 0.5236), 14, 1); //13..22
-                col1.edges.Add(new int[] { i + 13 });
-            }
-            col1.vertices.Add((float)Math.Cos(11 * 0.5236), (float)Math.Sin(11 * 0.5236), 14, 1); //23
-            col1.edges.Add(null);
-            col2 = new MyObject(col1);
-            col1.vertices *= moving_on(-5, 8, -10);
-            col2.vertices *= moving_on(5, 8, -10);
-            my_object0.Add(col1);
-            my_object0.Add(col2);
-            pens.Add(pen0);
-            pens.Add(pen0);
 
             axe_x = new MyObject();
             axe_x.vertices.Add(0, 0, 0, 1); //0
